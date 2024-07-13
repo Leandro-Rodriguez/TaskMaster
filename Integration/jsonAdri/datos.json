@@ -1,0 +1,429 @@
+{
+    "Proyectos": [
+      {
+        "id": 1,
+        "nombre": "Proyecto Numero 1",
+        "tareas": [
+          {
+            "id": 1,
+            "nombre": "Diseño de la interfaz",
+            "asignadoA": "Juan Perez",
+            "prioridad": "Alta",
+            "plazoDeEntrega": "2024-07-15",
+            "status": "Pendiente"
+          },
+          {
+            "id": 2,
+            "nombre": "Desarrollo del backend",
+            "asignadoA": "Maria Garcia",
+            "prioridad": "Media",
+            "plazoDeEntrega": "2024-07-20",
+            "status": "En progreso"
+          },
+          {
+            "id": 3,
+            "nombre": "Pruebas de usabilidad",
+            "asignadoA": "Carlos Rodriguez",
+            "prioridad": "Baja",
+            "plazoDeEntrega": "2024-07-25",
+            "status": "Completada"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Proyecto Numero 2",
+        "tareas": [
+          {
+            "id": 4,
+            "nombre": "Investigación de mercado",
+            "asignadoA": "Ana Lopez",
+            "prioridad": "Alta",
+            "plazoDeEntrega": "2024-07-30",
+            "status": "Pendiente"
+          },
+          {
+            "id": 5,
+            "nombre": "Prototipo de producto",
+            "asignadoA": "Luis Martinez",
+            "prioridad": "Alta",
+            "plazoDeEntrega": "2024-08-05",
+            "status": "En progreso"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Proyecto Numero 3",
+        "tareas": [
+          {
+            "id": 6,
+            "nombre": "Plan de marketing",
+            "asignadoA": "Laura Sanchez",
+            "prioridad": "Media",
+            "plazoDeEntrega": "2024-08-10",
+            "status": "Pendiente"
+          },
+          {
+            "id": 7,
+            "nombre": "Desarrollo de aplicación móvil",
+            "asignadoA": "Pedro Gonzalez",
+            "prioridad": "Alta",
+            "plazoDeEntrega": "2024-08-15",
+            "status": "En progreso"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Proyecto Numero 4",
+        "tareas": [
+          {
+            "id": 8,
+            "nombre": "Planificación del evento",
+            "asignadoA": "Lucia Ramirez",
+            "prioridad": "Alta",
+            "plazoDeEntrega": "2024-08-20",
+            "status": "Pendiente"
+          },
+          {
+            "id": 9,
+            "nombre": "Contacto con proveedores",
+            "asignadoA": "Javier Hernandez",
+            "prioridad": "Media",
+            "plazoDeEntrega": "2024-08-25",
+            "status": "En progreso"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Proyecto Numero 5",
+        "tareas": [
+          {
+            "id": 10,
+            "nombre": "Análisis de datos",
+            "asignadoA": "Sofia Suarez",
+            "prioridad": "Alta",
+            "plazoDeEntrega": "2024-09-01",
+            "status": "Pendiente"
+          },
+          {
+            "id": 11,
+            "nombre": "Presentación de resultados",
+            "asignadoA": "Andres Vargas",
+            "prioridad": "Baja",
+            "plazoDeEntrega": "2024-09-05",
+            "status": "En progreso"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Proyecto Numero 6",
+        "tareas": [
+          {
+            "id": 12,
+            "nombre": "Rediseño del logo",
+            "asignadoA": "Carmen Torres",
+            "prioridad": "Media",
+            "plazoDeEntrega": "2024-09-10",
+            "status": "Pendiente"
+          },
+          {
+            "id": 13,
+            "nombre": "Campaña publicitaria",
+            "asignadoA": "Marta Flores",
+            "prioridad": "Alta",
+            "plazoDeEntrega": "2024-09-15",
+            "status": "En progreso"
+          }
+        ]
+      }
+    ],
+
+    "Tareas":[
+        {
+            "id": 1,
+            "nombre": "Centrar div",
+            "asignadoA": "Juan Perez",
+            "prioridad": "Alta",
+            "plazoDeEntrega": "2024-09-01",
+            "status": "En progreso"
+        },
+        {
+            "id": 2,
+            "nombre": "Centrar textos",
+            "asignadoA": "Andres Vargas",
+            "prioridad": "Alta",
+            "plazoDeEntrega": "2024-09-01",
+            "status": "En progreso"
+        },
+        {
+            "id": 3,
+            "nombre": "Quitar botones extras",
+            "asignadoA": "Luis Martinez",
+            "prioridad": "Media",
+            "plazoDeEntrega": "2024-09-01",
+            "status": "Pendiente"
+        },
+        {
+            "id": 4,
+            "nombre": "Agregar boton",
+            "asignadoA": "Laura Sanchez",
+            "prioridad": "Baja",
+            "plazoDeEntrega": "2024-09-01",
+            "status": "En progreso"
+        }
+    ],
+
+    "Usuarios": [
+      {
+        "ID": 1,
+        "apellido": "Perez",
+        "nombre": "Juan",
+        "email": "juan.perez@empresa.com",
+        "habilidades": {
+          "html": "principiante",
+          "css": "intermedio",
+          "javascript": "avanzado"
+        },
+        "frameworks": [
+          "React",
+          "Angular"
+        ],
+        "herramientas": [
+          "Git",
+          "Webpack"
+        ]
+      },
+      {
+        "ID": 2,
+        "apellido": "Garcia",
+        "nombre": "Maria",
+        "email": "maria.garcia@empresa.com",
+        "habilidades": {
+          "html": "intermedio",
+          "css": "avanzado",
+          "javascript": "principiante"
+        },
+        "frameworks": [
+          "Vue",
+          "Svelte"
+        ],
+        "herramientas": [
+          "Docker",
+          "Jenkins"
+        ]
+      },
+      {
+        "ID": 3,
+        "apellido": "Rodriguez",
+        "nombre": "Carlos",
+        "email": "carlos.rodriguez@empresa.com",
+        "habilidades": {
+          "html": "avanzado",
+          "css": "principiante",
+          "javascript": "intermedio"
+        },
+        "frameworks": [
+          "React",
+          "Angular"
+        ],
+        "herramientas": [
+          "Git",
+          "Webpack"
+        ]
+      },
+      {
+        "ID": 4,
+        "apellido": "Lopez",
+        "nombre": "Ana",
+        "email": "ana.lopez@empresa.com",
+        "habilidades": {
+          "html": "principiante",
+          "css": "intermedio",
+          "javascript": "avanzado"
+        },
+        "frameworks": [
+          "Vue",
+          "Svelte"
+        ],
+        "herramientas": [
+          "Docker",
+          "Jenkins"
+        ]
+      },
+      {
+        "ID": 5,
+        "apellido": "Martinez",
+        "nombre": "Luis",
+        "email": "luis.martinez@empresa.com",
+        "habilidades": {
+          "html": "intermedio",
+          "css": "avanzado",
+          "javascript": "principiante"
+        },
+        "frameworks": [
+          "React",
+          "Angular"
+        ],
+        "herramientas": [
+          "Git",
+          "Webpack"
+        ]
+      },
+      {
+        "ID": 6,
+        "apellido": "Sanchez",
+        "nombre": "Laura",
+        "email": "laura.sanchez@empresa.com",
+        "habilidades": {
+          "html": "avanzado",
+          "css": "principiante",
+          "javascript": "intermedio"
+        },
+        "frameworks": [
+          "Vue",
+          "Svelte"
+        ],
+        "herramientas": [
+          "Docker",
+          "Jenkins"
+        ]
+      },
+      {
+        "ID": 7,
+        "apellido": "Gonzalez",
+        "nombre": "Pedro",
+        "email": "pedro.gonzalez@empresa.com",
+        "habilidades": {
+          "html": "principiante",
+          "css": "intermedio",
+          "javascript": "avanzado"
+        },
+        "frameworks": [
+          "React",
+          "Angular"
+        ],
+        "herramientas": [
+          "Git",
+          "Webpack"
+        ]
+      },
+      {
+        "ID": 8,
+        "apellido": "Ramirez",
+        "nombre": "Lucia",
+        "email": "lucia.ramirez@empresa.com",
+        "habilidades": {
+          "html": "intermedio",
+          "css": "avanzado",
+          "javascript": "principiante"
+        },
+        "frameworks": [
+          "Vue",
+          "Svelte"
+        ],
+        "herramientas": [
+          "Docker",
+          "Jenkins"
+        ]
+      },
+      {
+        "ID": 9,
+        "apellido": "Hernandez",
+        "nombre": "Javier",
+        "email": "javier.hernandez@empresa.com",
+        "habilidades": {
+          "html": "avanzado",
+          "css": "principiante",
+          "javascript": "intermedio"
+        },
+        "frameworks": [
+          "React",
+          "Angular"
+        ],
+        "herramientas": [
+          "Git",
+          "Webpack"
+        ]
+      },
+      {
+        "ID": 10,
+        "apellido": "Suarez",
+        "nombre": "Sofia",
+        "email": "sofia.suarez@empresa.com",
+        "habilidades": {
+          "html": "principiante",
+          "css": "intermedio",
+          "javascript": "avanzado"
+        },
+        "frameworks": [
+          "Vue",
+          "Svelte"
+        ],
+        "herramientas": [
+          "Docker",
+          "Jenkins"
+        ]
+      },
+      {
+        "ID": 11,
+        "apellido": "Vargas",
+        "nombre": "Andres",
+        "email": "andres.vargas@empresa.com",
+        "habilidades": {
+          "html": "intermedio",
+          "css": "avanzado",
+          "javascript": "principiante"
+        },
+        "frameworks": [
+          "React",
+          "Angular"
+        ],
+        "herramientas": [
+          "Git",
+          "Webpack"
+        ]
+      },
+      {
+        "ID": 12,
+        "apellido": "Torres",
+        "nombre": "Carmen",
+        "email": "carmen.torres@empresa.com",
+        "habilidades": {
+          "html": "avanzado",
+          "css": "principiante",
+          "javascript": "intermedio"
+        },
+        "frameworks": [
+          "Vue",
+          "Svelte"
+        ],
+        "herramientas": [
+          "Docker",
+          "Jenkins"
+        ]
+      },
+      {
+        "ID": 13,
+        "apellido": "Flores",
+        "nombre": "Marta",
+        "email": "marta.flores@empresa.com",
+        "habilidades": {
+          "html": "principiante",
+          "css": "intermedio",
+          "javascript": "avanzado"
+        },
+        "frameworks": [
+          "React",
+          "Angular"
+        ],
+        "herramientas": [
+          "Git",
+          "Webpack"
+        ]
+      }
+    ]
+}  
